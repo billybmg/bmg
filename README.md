@@ -1,2 +1,2 @@
-# bmg.github.io
+# bmg
 Billy Site
