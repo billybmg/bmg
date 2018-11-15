@@ -1,0 +1,187 @@
+body{
+    background: rgb(248, 248, 248);
+}
+.BGlight{
+    background:  rgb(248, 248, 248)
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.carousel-item{
+    max-height: 100vh;
+    background:no-repeat center center scroll;
+    -webkit-background-size:cover;
+    background-size: cover; 
+    background-position: center;
+}
+
+.carousel-caption{
+    bottom:270px;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top:20px;
+    color: #333;
+}
+.carousel-caption p{
+    color: #333;
+    width: 75%;
+    margin: auto;
+    font-size: 25px;
+    line-height: 1.9;
+}
+.logoGreen{
+    color: #333;
+    background-color: #9fe51c;
+    border-color: #9fe51c;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.center{
+    text-align: center;
+}
+.foo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.foo:before,
+.foo:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+    color: #333;
+    background-color: #9fe51c;
+    border-color: #9fe51c;
+}
+
+.foo:after {
+    margin: 0 0 0 20px;
+}
+
+
+.welcomeBG {
+    content: '';
+    background-attachment:fixed;
+    background-image: url("img/welcome.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+    
+}
+
+.homeBG {
+    content: '';
+    background-attachment:fixed;
+    background-image: url("img/Untitled222.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+    
+}
+*{
+    box-sizing: border-box;
+  }
+  
+  
+  .container2{
+    max-width:1170px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
+  }
+  
+  ul{
+    list-style: none;
+    padding:0;
+  }
+  .wrapper{
+    box-shadow: 0 0 10px 0 rgba(72,94,116,0.7);
+  }
+  .wrapper > *{
+    padding: 1em;
+  }
+  
+  .company-info{
+    background:rgb(240, 240, 243);
+  }
+  
+  .company-info h3, .company-info ul{
+    text-align: center;
+    margin:0 0 1rem 0;
+  }
+  
+  .contact{
+    background:rgba(240, 240, 243);
+  }
+  
+  /* FORM STYLES */
+  .contact form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+  }
+  
+  .contact form label{
+    display:block;
+  }
+  
+  .contact form p{
+    margin:0;
+  }
+  
+  .contact form .full{
+    grid-column: 1 / 3;
+  }
+  
+  .contact form button, .contact form input, .contact form textarea{
+    width:100%;
+    padding:1em;
+    border:1px solid #9fe51c;
+  }
+  
+  .contact form button{
+    background:#9fe51c;
+    border:0;
+    text-transform: uppercase;
+  }
+  
+  .contact form button:hover,.contact form button:focus{
+    background:rgba(40, 243, 13, 0.904);
+    color:#fff;
+    outline:0;
+    transition: background-color 2s ease-out;
+  }
+  
+  /* LARGE SCREENS */
+  @media(min-width:700px){
+    .wrapper{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+  
+    .wrapper > *{
+      padding:2em;
+    }
+  
+    .company-info h3, .company-info ul, .brand{
+      text-align: left;
+    }
+  }
