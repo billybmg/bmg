@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="discription" content="We Do blinds flooring aluminium security for home and business in the PE area">
+    <meta name="keywords" content="wood floors blinds aluminium security doors security gates artificial grass">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet"> 
@@ -20,7 +21,7 @@
 <body>
     <!--NAV BAR--------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+        <div class="container col-lg-11">
             <a class="navbar-brand pl-5" href="#">
                 <img src="img/BMGlogoPNG.png" width="100" height="100" alt="" class="d-inline-block align-center">
             </a>
@@ -49,7 +50,7 @@
         </div>
     </nav>
     <!--Carousel / Rotating Images--------------->
-<section id="showcase">
+<section id="showcase " class="container col-lg-11">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -60,8 +61,8 @@
             <div class="carousel-item active .d-sm-none .d-md-block">
                 <img class="d-block w-100 h-100" src="img/floor1.jpeg" alt="First slide">
                 <div class="carousel-caption .d-sm-none .d-md-block ">
-                    <h5>first slide</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, nobis!</p>
+                    <h5>Welcome to BMG</h5>
+                    <p>We provide Shutters, Blinds, Eco-Screens And \</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -118,14 +119,11 @@
 
 <!--Welocome Section------------------>
 
- <section class="center">
+ <section>
         
-                <div class="jumbotron jumbotron-fluid welcomeBG text-white text-center">
-                    <div class="content container ">
-                        <h5 class="center">--Welocome--</h5>
-                        <h3 class="center display-4">BMG</h3> 
-                        <p class="center display-5">blinds | flooring | aluminium | security</p>  
-                        <p>With over 10 years’ experience, Billy’s philosophy is to “provide a great service by treating each customer with the utmost respect, professionalism and the highest quality workmanship. Our commitment to excellence is what separates us from the rest.  When you’re with us, you’re in good hands.”</p>             
+                <div class="center container text-muted my-5 ">
+                        <h1 class="display-5 center foo">blinds | flooring | aluminium | security</h1>  
+                        <p class="display-5" >With over 10 years’ experience, Billy’s philosophy is to “provide a great service by treating each customer with the utmost respect, professionalism and the highest quality workmanship. Our commitment to excellence is what separates us from the rest.  When you’re with us, you’re in good hands.”</p>             
                     </div>
                
  </section>          
@@ -139,28 +137,214 @@
                 <div class="container text-center">
                         <h1 class="display-4 center foo ">Products</h1>
                     </div>
+                    <!--Flooring-->
             <div class="col-lg-3 col-md-6 col-sm-6 my-3 mx-6 ">
                 <div class="card shadow-sm  " style="width: 16rem;">
-                    <img class="card-img-top img-fluid" src="img/gates.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="img/floors.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-success">Go somewhere</a>
+                        <h5 class="card-title">Floors</h5>
+                        <p class="card-text">Choose from our large range of engineered wood,
+                            bamboo, vinyl planks and the best in laminate flooring.</p>
+
+                            <!--Modal-->
+                            <a href="#myModal" role="button" class="btn btn-success" data-toggle="modal">Flooring range</a>
+
+                            <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog modal-full" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Flooring</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">×</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body p-4" id="result">
+                                                <p>Choose from our large range of engineered wood,
+                                                    bamboo, vinyl planks and the best in laminate flooring.</p>
+                                                    <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor1.jpg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor3.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal -->
                     </div>
                 </div>
             </div>
+            <!--Flooring-->
+            <!--Eco-Screens-->
             <div class="col-lg-3 col-md-6 col-sm-6 my-3  mx-6">
                 <div class="card shadow-sm " style="width: 16rem;">
                     <img class="card-img-top img-fluid" src="img/floors.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Eco-Screens</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-success">Go somewhere</a>
+                        <!--Modal-->
+                        <a href="#myModal" role="button" class="btn btn-success" data-toggle="modal">Flooring range</a>
+
+                            <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog modal-full" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Flooring</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">×</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body p-4" id="result">
+                                                <p>Choose from our large range of engineered wood,
+                                                    bamboo, vinyl planks and the best in laminate flooring.</p>
+                                                    <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor1.jpg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor3.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- Modal -->
                     </div>
                 </div>
             </div>
+            <!--Eco-Screens-->
+            <!--Shutters-->
             <div class="col-lg-3 col-md-6 col-sm-6 my-3 mx-6 ">
                 <div class="card shadow-sm " style="width: 16rem;">
                     <img class="card-img-top img-fluid" src="img/grass.jpg" alt="Card image cap">
@@ -168,11 +352,102 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-success">Go somewhere</a>
+                        <!--Modal-->
+                        <a href="#myModal" role="button" class="btn btn-success" data-toggle="modal">Flooring range</a>
+
+                            <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog modal-full" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Flooring</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">×</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body p-4" id="result">
+                                                <p>Choose from our large range of engineered wood,
+                                                    bamboo, vinyl planks and the best in laminate flooring.</p>
+                                                    <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor1.jpg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor3.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- Modal -->
                     </div>
                 </div>
             </div>
-
+<!--Shutters-->
+<!--Blinds-->
             <div class="col-lg-3 col-md-6 col-sm-6 my-3 mx-6 ">
                 <div class="card shadow-sm " style="width: 16rem;">
                     <img class="card-img-top img-fluid" src="img/house.jpg" alt="Card image cap">
@@ -180,10 +455,102 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-success">Go somewhere</a>
+                        <!--Modal-->
+                        <a href="#myModal" role="button" class="btn btn-success" data-toggle="modal">Flooring range</a>
+
+                        <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-full" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Flooring</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body p-4" id="result">
+                                            <p>Choose from our large range of engineered wood,
+                                                bamboo, vinyl planks and the best in laminate flooring.</p>
+                                                <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor1.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor3.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal -->
                     </div>
                 </div>
             </div>
+            <!--Blinds-->
+            <!--Patio Enclosures-->
             <div class="col-lg-3 col-md-6 col-sm-6 my-3 mx-6">
                 <div class="card shadow-sm " style="width: 16rem;">
                     <img class="card-img-top img-fluid" src="img/house.jpg" alt="Card image cap">
@@ -191,10 +558,102 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-success">Go somewhere</a>
+                        <!--Modal-->
+                        <a href="#myModal" role="button" class="btn btn-success" data-toggle="modal">Flooring range</a>
+
+                        <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-full" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Flooring</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body p-4" id="result">
+                                            <p>Choose from our large range of engineered wood,
+                                                bamboo, vinyl planks and the best in laminate flooring.</p>
+                                                <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor1.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor3.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal -->
                     </div>
                 </div>
             </div>
+            <!--Patio Enclosures-->
+            <!--Artificial Grass-->
             <div class="col-lg-3 col-md-6 col-sm-6 my-3 mx-6 ">
                 <div class="card shadow-sm " style="width: 16rem;">
                     <img class="card-img-top img-fluid" src="img/house.jpg" alt="Card image cap">
@@ -202,10 +661,102 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-success">Go somewhere</a>
+                        <!--Modal-->
+                        <a href="#myModal" role="button" class="btn btn-success" data-toggle="modal">Flooring range</a>
+
+                        <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-full" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Flooring</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body p-4" id="result">
+                                            <p>Choose from our large range of engineered wood,
+                                                bamboo, vinyl planks and the best in laminate flooring.</p>
+                                                <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor1.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor3.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                                <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                    <div class="card" style="width: 16rem;">
+                                                        <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal -->
                     </div>
                 </div>
             </div>
+            <!--Artificial Grass-->
+            <!--Trellis Gates-->
             <div class="col-lg-3 col-md-6 col-sm-6 my-3 mx-6">
                     <div class="card shadow-sm " style="width: 16rem;">
                         <img class="card-img-top img-fluid" src="img/house.jpg" alt="Card image cap">
@@ -213,10 +764,102 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                                 the card's content.</p>
-                            <a href="#" class="btn btn-success">Go somewhere</a>
+                            <!--Modal-->
+                            <a href="#myModal" role="button" class="btn btn-success" data-toggle="modal">Flooring range</a>
+
+                            <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog modal-full" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Flooring</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">×</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body p-4" id="result">
+                                                <p>Choose from our large range of engineered wood,
+                                                    bamboo, vinyl planks and the best in laminate flooring.</p>
+                                                    <div class="container">
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor1.jpg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor3.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                        <div class="card" style="width: 16rem;">
+                                                            <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                            <div class="card-body">
+                                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal -->
                         </div>
                     </div>
                 </div>
+                <!--Trellis Gates-->
+                <!--Aluminium Products-->
                 <div class="col-lg-3 col-md-6 col-sm-6 my-3 mx-6">
                         <div class="card shadow-sm " style="width: 16rem;">
                             <img class="card-img-top img-fluid" src="img/house.jpg" alt="Card image cap">
@@ -224,18 +867,109 @@
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                                     the card's content.</p>
-                                <a href="#" class="btn btn-success">Go somewhere</a>
+                                <!--Modal-->
+                                <a href="#myModal" role="button" class="btn btn-success" data-toggle="modal">Flooring range</a>
+
+                                <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog modal-full" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Flooring</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">×</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body p-4" id="result">
+                                                    <p>Choose from our large range of engineered wood,
+                                                        bamboo, vinyl planks and the best in laminate flooring.</p>
+                                                        <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                            <div class="card" style="width: 16rem;">
+                                                                <img class="card-img-top" src="Floors/floor1.jpg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                            <div class="card" style="width: 16rem;">
+                                                                <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                            <div class="card" style="width: 16rem;">
+                                                                <img class="card-img-top" src="Floors/floor3.jpeg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                            <div class="card" style="width: 16rem;">
+                                                                <img class="card-img-top" src="Floors/floor4.jpg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                            <div class="card" style="width: 16rem;">
+                                                                <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                            <div class="card" style="width: 16rem;">
+                                                                <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                            <div class="card" style="width: 16rem;">
+                                                                <img class="card-img-top" src="Floors/floor5.jpeg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="col-sm-6 col-lg-3 my-3 mx-6">
+                                                            <div class="card" style="width: 16rem;">
+                                                                <img class="card-img-top" src="Floors/floor6.jpeg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- Modal -->
                             </div>
                         </div>
                     </div>
+                    <!--Aluminium Products-->
         </div>
     </div>
 </section>
 <!--Vision-->
 <section class="center">
         
-        <div class="jumbotron jumbotron-fluid homeBG text-white text-center">
-            <div class="content container ">
+        <div class="jumbotron jumbotron-fluid homeBG text-white text-center container col-lg-11 ">
+            <div class="content ">
                 <h5 class="center display-4">With BMG</h5>   
                 <h5 class="center display-5">Create the home you've always wanted</h5>
                 <p class="center display-5">Do you have a vision for your home? If so, give us a call,  Let our team help turn your vision into a reality.</p>             
@@ -293,7 +1027,7 @@
                             <p><i class="fas fa-map-marker-alt"></i> Port Elizabeth</p>
                             </div>
                             
-                            <h4 class="center mt-5">Connect </h4>
+                            <h4 class="center mt-1">Connect </h4>
                             <hr>
                             <div class="row ml-3">
                             <a href="#"><i class="fab fa-whatsapp-square fa-3x mx-2 "></i></a>
@@ -301,7 +1035,9 @@
                             <a href="#"><i class="fab fa-facebook fa-3x mx-2  "></i></a>
                             <a href="#"><i class="fab fa-instagram fa-3x mx-2"></i></a>
                             <a href="#"><i class="fab fa-twitter-square fa-3x mx-2  "></i></a>
+                            <iframe class="mt-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424374.8763782133!2d25.24999686943125!3d-33.80124779439846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e7b290045ffd62b%3A0x86fd2337cd894226!2sPort+Elizabeth!5e0!3m2!1sen!2sza!4v1542697712570" width="300" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </div>
+                            
                             </div>
                             
 
@@ -346,7 +1082,7 @@
 <!--Form-->
 
 <!--Footer-->
-<div class=" jumbotron bg-success text-white text-center">
+<div class=" jumbotron bg-success text-white text-center container col-lg-11 ">
         <div class="row">
             <div class="col-lg-3 border-right text-body">
                 
