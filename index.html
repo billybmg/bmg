@@ -7,24 +7,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="discription" content="We Do blinds flooring aluminium security for home and business in the PE area">
-    <meta name="keywords" content="wood floors blinds aluminium security doors security gates artificial grass">
+    <meta name="keywords" content="wood floors blinds aluminium security doors security gates artificial grass home improvment">
 
     <!-- Bootstrap CSS -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style2.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet"> 
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
     <title>BMG</title>
 </head>
 
 <body>
     <!--NAV BAR--------------------------->
-    <nav class="navbar navbar-expand-lg ">
+    
+    <nav class="navbar navbar-expand-lg navbar-light navcolor ">
         <div class="container col-lg-11">
             <a class="navbar-brand pl-5" href="#">
-                <img src="img/BMGlogoPNG.png" width="100" height="100" alt="" class="d-inline-block align-center">
+                <img src="img/BMGlogoPNG.png" width="80" height="80" alt="" class="d-inline-block align-center">
+                
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,19 +40,33 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#products">Products</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="Floors.html">Floors</a>
+                          <a class="dropdown-item" href="ecoscreen.html">Eco-Screens</a>
+                          <a class="dropdown-item" href="aluminium.html">Aluminium Products</a>
+                          <a class="dropdown-item" href="blinds.html">Blinds</a>
+                          <a class="dropdown-item" href="grass.html">Artificial Grass</a>
+                          <a class="dropdown-item" href="gates.html">Gates</a>
+                          <a class="dropdown-item" href="shutters.html">Shutters</a>
+                          <a class="dropdown-item" href="patio.html">Patio Enclosures</a>
+                          
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">ContactUs</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
 
             </div>
         </div>
     </nav>
+    
     <!--Carousel / Rotating Images--------------->
-<section id="showcase ">
+<section class="container" id="showcase ">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -62,22 +77,22 @@
             <div class="carousel-item active .d-sm-none .d-md-block">
                 <img class="d-block w-100 " src="img/floor1.jpeg" alt="First slide" >
                 <div class="carousel-caption .d-sm-none .d-md-block ">
-                    <h5></h5>
-                    <p></p>
+                    <h5>BMG</h5>
+                    <p>Blinds | Flooring | Aluminium | Security</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 h-100" src="img/gates.jpg" alt="Second slide">
+                <img class="d-block w-100 h-100" src="img/s4.jpg" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5></h5>
-                    <p></p>
+                    <h5>BMG</h5>
+                    <p>Blinds | Flooring | Aluminium | Security</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 h-100" src="img/grass.jpg" alt="Third slide">
+                <img class="d-block w-100 h-100" src="img/s3.jpg" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5></h5>
-                    <p></p>
+                    <h5>BMG</h5>
+                    <p>Blinds | Flooring | Aluminium | Security</p>
                 </div>
             </div>
         </div>
@@ -146,6 +161,7 @@
                         <h5 class="card-title">Floors</h5>
                         <p class="card-text">Choose from our large range of engineered wood,
                             bamboo, vinyl planks and the best in laminate flooring.</p>
+                            <a href="Floors.html" class="btn btn-secondary">View Product</a>
 
                             <!--Modal-->
                            
@@ -161,6 +177,7 @@
                         <h5 class="card-title">Eco-Screens</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
+                            <a href="ecoscreen.html" class="btn btn-secondary">View Product</a>
                       
                     </div>
                 </div>
@@ -174,6 +191,7 @@
                         <h5 class="card-title">Shutters</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
+                            <a href="shutters.html" class="btn btn-secondary">View Product</a>
                      
                     </div>
                 </div>
@@ -187,6 +205,7 @@
                         <h5 class="card-title">Blinds</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
+                            <a href="blinds.html" class="btn btn-secondary">View Product</a>
                     
                     </div>
                 </div>
@@ -200,6 +219,7 @@
                         <h5 class="card-title">Patio Enclosures</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
+                            <a href="patio.html" class="btn btn-secondary">View Product</a>
                      
                     </div>
                 </div>
@@ -213,6 +233,7 @@
                         <h5 class="card-title">Artificial Grass</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
+                            <a href="grass.html" class="btn btn-secondary">View Product</a>
                      
                     </div>
                 </div>
@@ -226,6 +247,7 @@
                             <h5 class="card-title">Trellis Gates</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                                 the card's content.</p>
+                                <a href="gates.html" class="btn btn-secondary">View Product</a>
                     
                         </div>
                     </div>
@@ -239,6 +261,7 @@
                                 <h5 class="card-title">Aluminium Products</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                                     the card's content.</p>
+                                    <a href="aluminium.html" class="btn btn-secondary">View Product</a>
                           
                             </div>
                         </div>
@@ -248,7 +271,7 @@
     </div>
 </section>
 <!--Vision-->
-<section class="center">
+<section class="center container">
         
         <div class="vision jumbotron jumbotron-fluid homeBG text-white text-center ">
             <div class="content ">
@@ -302,11 +325,7 @@
                             <p><i class="fas fa-map-marker-alt"></i> Port Elizabeth</p>
                             </div>
                             <div class="row ml-3">
-                            <a href="#"><i class="fab fa-whatsapp-square fa-3x mx-2 "></i></a>
-                            <a href="#"><i class="fab fa-linkedin fa-3x mx-2"></i></a>
-                            <a href="#"><i class="fab fa-facebook fa-3x mx-2  "></i></a>
-                            <a href="#"><i class="fab fa-instagram fa-3x mx-2"></i></a>
-                            <a href="#"><i class="fab fa-twitter-square fa-3x mx-2  "></i></a>
+                            
                             <iframe class="mt-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424374.8763782133!2d25.24999686943125!3d-33.80124779439846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e7b290045ffd62b%3A0x86fd2337cd894226!2sPort+Elizabeth!5e0!3m2!1sen!2sza!4v1542697712570" width="300" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </div>
                             
@@ -315,29 +334,31 @@
 
                           <div class="contact">
                             <h3>Email Us</h3>
-                            <form>
+                            
+                            <form id="contactForm">
                               <p>
                                 <label>Name</label>
-                                <input type="text" name="name">
+                                <input type="text" name="name" id="name" required>
                               </p>
                               <p>
                                 <label>Company</label>
-                                <input type="text" name="company">
+                                <input type="text" name="company" id="company">
                               </p>
                               <p>
                                 <label>Email Address</label>
-                                <input type="email" name="email">
+                                <input type="email" name="email" id="email" required>
                               </p>
                               <p>
                                 <label>Phone Number</label>
-                                <input type="text" name="phone">
+                                <input type="text" name="phone" id="phone">
                               </p>
                               <p class="full">
                                 <label>Message</label>
-                                <textarea name="message" rows="5"></textarea>
+                                <textarea name="message" rows="5" id="message"></textarea>
                               </p>
+                              <div class="alert">Your Message has been sent</div>
                               <p class="full">
-                                <button>Submit</button>
+                                <button type="submit">Submit</button>
                               </p>
                             </form>
                           </div>
@@ -448,12 +469,14 @@
       });
     });
     </script>
+    
+
+    <script src="main.js"></script>
 </body>
 
 
 </html>
-</head>
-<body>
+
     
 </body>
 </html>
